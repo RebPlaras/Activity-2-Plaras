@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     $total = $price * $quantity;
-    $change = $cash - $totalPrice;
+    $change = $cash - $total;
 
     $timestamp = date("Y-m-d H:i:s");
 
