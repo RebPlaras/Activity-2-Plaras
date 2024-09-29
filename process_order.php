@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "<h1>Receipt</h1>";
         echo "<p><b>Food:</b> $food</p>";
         echo "<p><b>Quantity:</b> $quantity</p>";
-        echo "<p><b>Total Price:</b> $totalPrice</p>";
+        echo "<p><b>Total Price:</b> $total</p>";
         echo "<p><b>Cash Paid:</b> $cash</p>";
         echo "<p><b>Change:</b> $change</p>";
         echo "<p><b>Timestamp:</b> $timestamp</p>";
